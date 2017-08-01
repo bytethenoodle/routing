@@ -9,8 +9,8 @@ let package = Package(
     ],
     dependencies: [
         // Core vapor transport layer
-        .Package(url: "https://github.com/vapor/engine.git", majorVersion: 2),
-        .Package(url: "https://github.com/vapor/node.git", majorVersion: 2),
+        .Package(url: "https://github.com/bytethenoodle/engine.git", majorVersion: 2),
+        .Package(url: "https://github.com/bytethenoodle/node.git", majorVersion: 2),
     ],
     exclude: [
         "Sources/TypeSafeGenerator"
